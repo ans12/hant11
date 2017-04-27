@@ -50,13 +50,13 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
                     if(et1.requestFocus()){
                         et=et1;
-                        //Toast.makeText(getApplicationContext(),"Request Focuse on ET 1",Toast.LENGTH_LONG).show();
+
                     }
                 }
             }
         });
 
-        //et.requestFocus();
+
         b1=(Button)findViewById(R.id.button);
         b2=(Button)findViewById(R.id.button2);
         b3=(Button)findViewById(R.id.button3);
